@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.p-vehicule-occ {
+  width: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (min-width: 991px) {
+  .p-vehicule-occ {
+    display: none;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 4px solid #fdba3d;
+  padding-bottom: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  border-bottom: 2px dashed black;
+  border-top: 2px dashed black;
+  padding: 10px;
+}
+
+.connexion {
+  background-color: #fdba3d;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  position: absolute;
+  border: none;
+  font-size: larger;
+}
+.connexion:hover {
+  background-color: #eb9a02;
+}
+
+@media screen and (max-width: 991px) {
+  .img-top-pc {
+    display: none;
+  }
+  .texte img {
+    display: none;
+  }
+  .btn2 {
+    left: 10%;
+  }
+}
+.img-top-pc {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 70px;
+}
+
+@media screen and (min-width: 991px) {
+  .connexion {
+    top: 230px;
+    right: 180px;
+  }
+}
+.toggle {
+  height: 30px;
+  width: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu a {
+  color: #fdba3d;
+}
+.menu a:hover {
+  color: white;
+}
+
+.menu > li {
+  padding: 5px 10px;
+  margin: 5px 0px;
+  text-align: center;
+}
+.menu > li:hover {
+  background: #fdba3d;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+@media all and (max-width: 991px) {
+  .toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .ouvrir {
+    display: block;
+  }
+  .fermer {
+    display: none;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+  }
+  .open .ouvrir {
+    display: none;
+  }
+  .open .fermer {
+    display: block;
+  }
+  .menu {
+    flex-direction: column;
+    margin-top: 20px;
+    background: #fdba3d;
+    color: white;
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    display: none;
+  }
+  .menu:hover {
+    background: #eb9a02;
+    color: white;
+  }
+  .open .menu {
+    display: flex;
+    font-size: 1.4rem;
+  }
+  .menu li a {
+    color: white;
+    padding-left: -30px;
+  }
+  ul.menu {
+    padding-left: 0;
+  }
+}
+h2 {
+  color: #fdba3d;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 70px;
+}
+
+.trait {
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
+.texte {
+  display: flex;
+  margin-top: 60px;
+}
+.texte > p {
+  text-justify: auto;
+  text-align: center;
+  line-height: 200%;
+  margin: 33px;
+}
+.texte img {
+  margin-right: 50px;
+  width: 500px;
+  height: 400px;
+}
+
+.btn2 {
+  background: #fdba3d;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  font-size: larger;
+}
+.btn2:hover {
+  background-color: #eb9a02;
+}
+
+.bg-blk {
+  background: black;
+  color: #fdba3d;
+  margin-top: 100px;
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+.container {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #fdba3d;
+  width: 60%;
+  border-radius: 3px;
+  height: 100%;
+  padding: 5px 10px 15px 10px;
+}
+.card img {
+  padding: 10px;
+  width: 90%;
+  height: 50%;
+}
+
+h3 {
+  color: black;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 991px) {
+  .container {
+    display: flex;
+  }
+  .card {
+    width: 20%;
+    height: 100%;
+  }
+  .card img {
+    height: 220px;
+    width: 90%;
+  }
+}
+.avis {
+  text-align: center;
+  margin-top: 70px;
+}
+.avis a {
+  text-decoration: underline;
+  color: black;
+}
+.avis p {
+  margin-top: 100px;
+}
+
+footer p {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.trait2 {
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 991px) {
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .trait2 {
+    display: none;
+  }
+  footer img {
+    border: 1px solid #fdba3d;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 991px) {
+  footer img {
+    display: none;
+  }
+}
+.trait3 {
+  width: 100px;
+  height: 4px;
+  background-color: #fdba3d;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
+.btn3 {
+  background: #fdba3d;
+  color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  font-size: larger;
+}
+.btn3:hover {
+  background-color: #eb9a02;
+}
+
+.center {
+  text-align: center;
+  margin: 80px 0;
+}
+
+@media screen and (min-width: 991px) {
+  .card-occasion {
+    height: 400px;
+  }
+}
+.photo-mecanique {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: 400px;
+  width: 600px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 991px) {
+  .photo-mecanique {
+    display: none;
+  }
+}
+.form-i {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+label {
+  color: #fdba3d;
+}
+
+.filter {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 10px;
+  border: 1px solid #fdba3d;
+  border-radius: 5px;
+}
+
+.filter h2 {
+  color: black;
+  margin-top: -60px;
+  margin-bottom: 60px;
+}
+
+.filter-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#results {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-filter {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  width: 30%;
+}
+
+#km,
+#classe,
+#annee,
+#prix {
+  border: 1px solid #fdba3d;
+}
+
+.form-group {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#avis-form button {
+  margin-top: 20px;
+}
+
+textarea {
+  resize: none;
+  min-width: 300px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 400px;
+  margin-left: -26%;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
