@@ -15,10 +15,10 @@
 
 <body>
     <header class="header">
-        <a href="../index.html"><img class="logo" src="../image/Garage_V.parrot-removebg-preview.png"
+        <a href="./index.html"><img class="logo" src="../image/Garage_V.parrot-removebg-preview.png"
                 alt="logo garage"></a>
         <div class="navbar">
-            <a href="../connexion.html"><button class="connexion">connexion</button></a>
+            <a href="./connexion.html"><button class="connexion">connexion</button></a>
             <nav class="Le_menu">
                 <div class="toggle">
                     <img src="../image/bars-solid.svg" alt="menu button" class="ouvrir">
