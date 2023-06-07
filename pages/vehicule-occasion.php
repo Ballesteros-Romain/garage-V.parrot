@@ -157,7 +157,7 @@
             <p>contactez nous pour
                 toute demande</p>
         </div>
-        <a href="./avis.html"><button class="btn3">contactez nous</button></a>
+        <a href="./avis.php"><button class="btn3">contactez nous</button></a>
     </main>
     <footer>
         <div class="bg-blk footer">

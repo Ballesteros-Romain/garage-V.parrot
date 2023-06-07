@@ -1,4 +1,4 @@
-<?php require '../php/header.php'?>
+<?php require './php/header.php'?>
 
     <img src="../image/images (1).jpeg" alt="photo de voiture" class="img-top-pc">
     <main class="main">
@@ -29,7 +29,7 @@
                     Renault à Peugeot, de Volkswagen à Toyota en passant par Citroën ou Fiat et bien d’autres.</p>
                 <img src="../image/images (2).jpeg" alt="photo voiture">
             </div>
-            <button class="btn2">En savoir plus</button>
+            <a href="/pages/vehicule-occasion.php"><button class="btn2">En savoir plus</button></a>
         </section>
         <section class="bg-blk">
             <h2>nos prestations</h2>
@@ -60,26 +60,9 @@
         </section>
         <section class="bg-blc">
             <div class="avis">
-                <a href="./avis.html">Votre avis nous interesse</a>
+                <a href="../pages/avis.php">Votre avis nous interesse</a>
                 <p>Prenez le temps de nous donner une apreciation !</p>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="bg-blk footer">
-            <p>Nos horaires: <br>
-                du mardi au vendredi <br>
-                de 9h à 12h <br> et de <br> 13h à 18h <br>samedi <br>de 10h à 15h</p>
-            <div class="trait2"></div>
-            <img src="../image/Garage_V.parrot-removebg-preview.png" alt="logo">
-            <p>contactez nous : <br>01 85 66 32 15 <br>contact@vparrot.fr <br>30 rue de la reussite <br>34000
-                <br>montpellier
-            </p>
-        </div>
-    </footer>
-
-    <script src="../script.js"></script>
-
-</body>
-
-</html>
+  <?php require './php/footer.php'?>
